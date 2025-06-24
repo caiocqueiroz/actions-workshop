@@ -18,7 +18,7 @@ on:
       - main
 jobs:
   test:
-    runs-on: ubuntu-latest # For all examples, change the runner type for Philips' self-hosted runners labels
+    runs-on: ubuntu-latest
     defaults: # This sets the default folder for all steps in the job
       run:
         working-directory: sample-app
@@ -39,7 +39,7 @@ jobs:
 Follow these steps to create and run your first GitHub Actions workflow:
 
 1. **Create a new repository**:
-  - Go to GitHub org provided by the Philips team and create a new repository.
+  - Create a new repo in your own GitHub account (namespace).
 
 2. **Add a workflow file**:
   - In your repository, create a new directory called `.github/workflows`.
