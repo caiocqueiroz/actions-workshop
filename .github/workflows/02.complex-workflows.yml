@@ -32,6 +32,7 @@ jobs:
       run:
         working-directory: sample-app
     strategy:
+      fail-fast: false
       matrix:
         node-version: [12, 14, 16]
         os: [ubuntu-latest, windows-latest, macos-latest]
